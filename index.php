@@ -17,12 +17,13 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-img-top">
-                            <div class="card_body">
-                                <div class="card-title"></div>
-                                <div class="card-text"></div>
-                                <div class="card-text"></div>
-                                <div class="card-text"></div>
-                            </div>
+                            <img src="" alt="">
+                        </div>
+                        <div class="card_body">
+                            <div class="card-title"></div>
+                            <div class="card-text"></div>
+                            <div class="card-text"></div>
+                            <div class="card-text"></div>
                         </div>
                     </div>
                 </div>
