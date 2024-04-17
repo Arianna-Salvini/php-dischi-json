@@ -8,6 +8,7 @@ Html CSS, VueJS (importato tramite CDN), axios, PHP
 Al click su un disco, recuperare e mostrare i dati del disco selezionato.
 
 ![alt text](assets/img/screenshot-1.PNG.png)  ![alt text](assets/img/screenshot-2.PNG.png)
+
 ~~~ Consigli ~~~
 
 Nello svolgere l’esercizio seguite un approccio graduale.
