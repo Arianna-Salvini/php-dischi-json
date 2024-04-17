@@ -1,3 +1,21 @@
-body {
-    background-color: darkblue;
+:root {
+    --dsk-bg-primary: #1d2d3c;
+    --dsk-bg-primary-dark: #112030;
+    --dsk-bg-header-dark: #06131f;
+}
+
+.bg_primary_dark {
+    background-color: var(--dsk-bg-primary-dark);
+}
+
+.bg_primary {
+    background-color: var(--dsk-bg-primary);
+}
+
+.bg_header_dark {
+    background-color: var(--dsk-bg-header-dark);
+}
+
+.card_border {
+    border: 2px inherit var(--dsk-header-dark);
 }

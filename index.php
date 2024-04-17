@@ -10,18 +10,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body class="bg-dark color-light">
+<body class="bg_primary">
     <div id="app">
         <div class="container">
             <div class="row row-cols-3">
                 <!-- Itero nei dischi e creo le varie card -->
-                <div class="col-4" v-for='disk in disks'>
-                    <div class="card bg-primary-subtle">
-                        <img class="card-img-top" :src="disk.poster" alt="">
-                        <div class="card_body ">
-                            <h3 class="card-title text-light-emphasis">{{disk.title}}</h3>
+                <div class="g-5" v-for='disk in disks'>
+                    <div class=" bg_primary_dark px-2 py-5 mx-2 my-3 shadow rounded-3 card_border">
+                        <img class="card-img-top px-5 pt-3" :src="disk.poster" alt="">
+                        <div class="card_body text-light text-center py-3">
+                            <h4 class="card-title">{{disk.title}}</h4>
                             <div class="card-text">{{disk.author}}</div>
-                            <h4 class="card-text">{{disk.year}}</h4>
+                            <h5 class="card-text">{{disk.year}}</h5>
                         </div>
                     </div>
                 </div>
