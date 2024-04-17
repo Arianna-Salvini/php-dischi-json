@@ -4,18 +4,20 @@ createApp({
     data() {
         return {
             disks: [],
+            api_url: 'api.php',
+            error: '',
         };
     },
     mounted() {
         // Effettuare richiesta al backend
-        axios.get('api.php')
+        axios.get('api_url')
             .then(response => {
                 // Aggiungere la risposta e i suoi dati alla variabile disks
-                this.disk = response.data;
+                this.disks = response.data;
             })
             .catch(error => {
-                console.log(err.message);
-                this.error = err.message;
+                console.log(error.message);
+                this.error = error.message;
             })
     },
 }).mount('#app')
