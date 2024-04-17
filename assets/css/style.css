@@ -16,6 +16,9 @@
     background-color: var(--dsk-bg-header-dark);
 }
 
-.card_border {
-    border: 2px inherit var(--dsk-header-dark);
+nav {
+    height: 4rem;
+    padding-left: 3rem;
+    line-height: 4rem;
+    font-size: 2.3rem;
 }
